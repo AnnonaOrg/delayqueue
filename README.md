@@ -1,12 +1,12 @@
 # DelayQueue
 
-![license](https://img.shields.io/github/license/HDT3213/delayqueue)
-[![Build Status](https://travis-ci.com/HDT3213/delayqueue.svg?branch=master)](https://app.travis-ci.com/github/HDT3213/delayqueue)
-[![Coverage Status](https://coveralls.io/repos/github/HDT3213/delayqueue/badge.svg?branch=master)](https://coveralls.io/github/HDT3213/delayqueue?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/HDT3213/delayqueue)](https://goreportcard.com/report/github.com/HDT3213/delayqueue)
+![license](https://img.shields.io/github/license/AnnonaOrg/delayqueue)
+[![Build Status](https://travis-ci.com/AnnonaOrg/delayqueue.svg?branch=master)](https://app.travis-ci.com/github/AnnonaOrg/delayqueue)
+[![Coverage Status](https://coveralls.io/repos/github/AnnonaOrg/delayqueue/badge.svg?branch=master)](https://coveralls.io/github/AnnonaOrg/delayqueue?branch=master)
+[![Go Report Card](https://goreportcard.com/badge/github.com/AnnonaOrg/delayqueue)](https://goreportcard.com/report/github.com/AnnonaOrg/delayqueue)
 [![Go Reference](https://pkg.go.dev/badge/github.com/hdt3213/delayqueue.svg)](https://pkg.go.dev/github.com/hdt3213/delayqueue)
 
-[中文版](https://github.com/HDT3213/delayqueue/blob/master/README_CN.md)
+[中文版](https://github.com/AnnonaOrg/delayqueue/blob/master/README_CN.md)
 
 DelayQueue is a message queue supporting delayed/scheduled delivery based on redis. It is designed to be reliable, scalable and easy to get started.
 
@@ -24,7 +24,7 @@ Core Advantages:
 DelayQueue requires a Go version with modules support. Run following command line in your project with go.mod:
 
 ```
-go get github.com/hdt3213/delayqueue
+go get github.com/AnnonaOrg/delayqueue
 ```
 
 ## Get Started
@@ -34,7 +34,7 @@ package main
 
 import (
 	"github.com/redis/go-redis/v9"
-	"github.com/hdt3213/delayqueue"
+	"github.com/AnnonaOrg/delayqueue"
 	"strconv"
 	"time"
 )

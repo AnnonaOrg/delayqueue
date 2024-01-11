@@ -1,8 +1,8 @@
 
-![license](https://img.shields.io/github/license/HDT3213/delayqueue)
-[![Build Status](https://travis-ci.com/HDT3213/delayqueue.svg?branch=master)](https://app.travis-ci.com/github/HDT3213/delayqueue)
-[![Coverage Status](https://coveralls.io/repos/github/HDT3213/delayqueue/badge.svg?branch=master)](https://coveralls.io/github/HDT3213/delayqueue?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/HDT3213/delayqueue)](https://goreportcard.com/report/github.com/HDT3213/delayqueue)
+![license](https://img.shields.io/github/license/AnnonaOrg/delayqueue)
+[![Build Status](https://travis-ci.com/AnnonaOrg/delayqueue.svg?branch=master)](https://app.travis-ci.com/github/AnnonaOrg/delayqueue)
+[![Coverage Status](https://coveralls.io/repos/github/AnnonaOrg/delayqueue/badge.svg?branch=master)](https://coveralls.io/github/AnnonaOrg/delayqueue?branch=master)
+[![Go Report Card](https://goreportcard.com/badge/github.com/AnnonaOrg/delayqueue)](https://goreportcard.com/report/github.com/AnnonaOrg/delayqueue)
 [![Go Reference](https://pkg.go.dev/badge/github.com/hdt3213/delayqueue.svg)](https://pkg.go.dev/github.com/hdt3213/delayqueue)
 
 DelayQueue 是使用 Go 语言基于 Redis 实现的支持延时/定时投递的消息队列。
