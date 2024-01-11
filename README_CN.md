@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.com/AnnonaOrg/delayqueue.svg?branch=master)](https://app.travis-ci.com/github/AnnonaOrg/delayqueue)
 [![Coverage Status](https://coveralls.io/repos/github/AnnonaOrg/delayqueue/badge.svg?branch=master)](https://coveralls.io/github/AnnonaOrg/delayqueue?branch=master)
 [![Go Report Card](https://goreportcard.com/badge/github.com/AnnonaOrg/delayqueue)](https://goreportcard.com/report/github.com/AnnonaOrg/delayqueue)
-[![Go Reference](https://pkg.go.dev/badge/github.com/hdt3213/delayqueue.svg)](https://pkg.go.dev/github.com/hdt3213/delayqueue)
+[![Go Reference](https://pkg.go.dev/badge/github.com/AnnonaOrg/delayqueue.svg)](https://pkg.go.dev/github.com/AnnonaOrg/delayqueue)
 
 DelayQueue 是使用 Go 语言基于 Redis 实现的支持延时/定时投递的消息队列。
 
@@ -19,7 +19,7 @@ DelayQueue 的主要优势：
 在启用了 go mod 的项目中运行下列命令即可完成安装：
 
 ```shell
-go get github.com/hdt3213/delayqueue
+go get github.com/AnnonaOrg/delayqueue
 ```
 
 > 如果您仍在使用 `github.com/go-redis/redis/v8` 请安装 `go get github.com/hdt3213/delayqueue@v8`
@@ -31,7 +31,7 @@ package main
 
 import (
 	"github.com/redis/go-redis/v9"
-	"github.com/hdt3213/delayqueue"
+	"github.com/AnnonaOrg/delayqueue"
 	"strconv"
 	"time"
 )

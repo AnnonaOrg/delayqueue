@@ -1,12 +1,12 @@
 # DelayQueue
 
 ![license](https://img.shields.io/github/license/AnnonaOrg/delayqueue)
-[![Build Status](https://travis-ci.com/AnnonaOrg/delayqueue.svg?branch=master)](https://app.travis-ci.com/github/AnnonaOrg/delayqueue)
-[![Coverage Status](https://coveralls.io/repos/github/AnnonaOrg/delayqueue/badge.svg?branch=master)](https://coveralls.io/github/AnnonaOrg/delayqueue?branch=master)
+[![Build Status](https://travis-ci.com/AnnonaOrg/delayqueue.svg?branch=main)](https://app.travis-ci.com/github/AnnonaOrg/delayqueue)
+[![Coverage Status](https://coveralls.io/repos/github/AnnonaOrg/delayqueue/badge.svg?branch=main)](https://coveralls.io/github/AnnonaOrg/delayqueue?branch=main)
 [![Go Report Card](https://goreportcard.com/badge/github.com/AnnonaOrg/delayqueue)](https://goreportcard.com/report/github.com/AnnonaOrg/delayqueue)
-[![Go Reference](https://pkg.go.dev/badge/github.com/hdt3213/delayqueue.svg)](https://pkg.go.dev/github.com/hdt3213/delayqueue)
+[![Go Reference](https://pkg.go.dev/badge/github.com/AnnonaOrg/delayqueue.svg)](https://pkg.go.dev/github.com/AnnonaOrg/delayqueue)
 
-[中文版](https://github.com/AnnonaOrg/delayqueue/blob/master/README_CN.md)
+[中文版](https://github.com/AnnonaOrg/delayqueue/blob/main/README_CN.md)
 
 DelayQueue is a message queue supporting delayed/scheduled delivery based on redis. It is designed to be reliable, scalable and easy to get started.
 
